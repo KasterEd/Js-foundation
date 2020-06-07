@@ -1,0 +1,48 @@
+marvin = 0
+console.log(marvin)
+marvin = 42
+console.log(marvin)
+hands = 89
+console.log(hands)
+
+const  point =5
+const res = point + 2
+//error if type: res = 7
+
+//if need to change variable later
+let points = 5
+points = 7
+
+//use const until you can't
+
+const fi = 5              // what is the value of fi?
+const mission = fi + 1    // what is the value of mission?
+const deed = fi + mission // what is the value of deed?
+const space = 8 * 8       // what is the value of space?
+const ship = space / 4    //what is the value of ship?
+
+
+
+const a = "hello"
+const message = a + 'world'    // what is value of message?
+const c = 5
+const d = c + message          // what is the value of d?
+//console.log(d)
+const e = '<h1>' + a + '</h1>' // what is the value of e?
+//console.log(e)
+
+const loc = "los santos"
+const firstname = "kas"
+const lastname = "ter"
+
+const mess = `welcome to ${loc}, ${firstname}, ${lastname} !`
+console.log(mess)
+//We can use ` (backticks) and ${expression}
+//(placeholder) instead, which allows us to put 
+//the variables directly into the string:
+
+//example
+const actor = "K"
+const location = "BIG lake"
+const story = `${actor} plans to go to the ${location} tomorrow`
+console.log(story)
